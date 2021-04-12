@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar{
+    background-image: linear-gradient(to right, #666474, #928DAB);
+} 
+
+.navbar-light .navbar-brand {
+    color: #D7DDE8;
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:  #D7DDE8;
+    font-size: 20px;
+    float: right;
+    text-align: left;
+}
+
+.fa-bars{
+    color: #D7DDE8;
+    font-size: 30px;
+}
+
+.navbar-nav .dropdown-menu {
+    position: static;
+    background-image: linear-gradient(to right, #666474, #928DAB);
+}
+
+.navbar-toggler{
+    outline: none !important;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: #D7DDE8;
+    text-align: right;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+.profi i{
+    font-size: 28px;
+    color: #D7DDE8;
+    float: right;
+    text-align: right;
+    position: relative;
+}
+
+
+
